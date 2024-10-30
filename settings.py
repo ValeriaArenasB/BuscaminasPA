@@ -40,4 +40,3 @@ tile_flag = pygame.transform.scale(pygame.image.load(os.path.join("assets", "Til
 tile_mine = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileMine.png")),(TILESIZE,TILESIZE))
 tile_notmine = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileNotMine.png")),(TILESIZE,TILESIZE))
 tile_unknown = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileUnknown.png")),(TILESIZE,TILESIZE))
-
