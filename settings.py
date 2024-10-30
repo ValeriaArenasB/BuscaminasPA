@@ -35,7 +35,7 @@ for i in range(1,9):
     #so we are able to use the Tile{i} so it's easier to bring the files
     
 tile_empty = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileEmpty.png")),(TILESIZE,TILESIZE))
-tile_exploded = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileEXploded.png")),(TILESIZE,TILESIZE))
+tile_exploded = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileExploded.png")),(TILESIZE,TILESIZE))
 tile_flag = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileFlag.png")),(TILESIZE,TILESIZE))
 tile_mine = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileMine.png")),(TILESIZE,TILESIZE))
 tile_notmine = pygame.transform.scale(pygame.image.load(os.path.join("assets", "TileNotMine.png")),(TILESIZE,TILESIZE))

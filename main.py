@@ -1,7 +1,10 @@
 import pygame
+import os
 from settings import *
 from sprites import *
 
+# Initialize Pygame
+pygame.init()
 
 class Game:
     def __init__(self):
@@ -85,4 +88,5 @@ game = Game()
 while True:
     game.new()
     game.run()
-   
+
+pygame.quit()
